@@ -20,7 +20,7 @@ func get_actual_volume_db_from_bus_name(name: String) -> float:
 		push_error("GodotParadiseSingletonbundle | AudioManager: Cannot retrieve volume for bus name {name}, it does not exists".format({"name": name}))
 		return 0.0
 		
-	return db_to_linear(AudioServer.get_bus_volume_db(AudioServer.get_bus_index(name)))
+	return get_actual_volume_db_from_bus_index(bus_index)
 
 ## Get the actual linear value from the selected bus by its index
 func get_actual_volume_db_from_bus_index(bus_index: int) -> float:
