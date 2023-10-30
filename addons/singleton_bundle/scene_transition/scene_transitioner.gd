@@ -1,9 +1,5 @@
 extends Node
 
-signal started_transition(data: Dictionary)
-signal finished_transition(data: Dictionary, next_scene)
-
-
 func transition_to_with_loading(scene: String, loading_scene: PackedScene, data: Dictionary = {}) -> void:
 		data.merge({"is_loading_screen": true, "scene_path": scene})
 		transition_to(scene, loading_scene, data)
@@ -40,7 +36,7 @@ func on_finished_transition(data: Dictionary, next_scene) -> void:
 	
 	if _is_loading_screen(data):
 		_change_to_packed(next_scene)
-	if typeof(scene) == TYPE_STRING and _scene_is_available(scene):
+	elif typeof(scene) == TYPE_STRING and _scene_is_available(scene):
 		_change_to_file(scene)
 	elif scene is PackedScene:
 		_change_to_packed(scene)

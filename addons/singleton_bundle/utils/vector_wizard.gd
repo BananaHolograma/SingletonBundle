@@ -91,7 +91,7 @@ func closest_point_on_line_clamped_v2(a: Vector2, b: Vector2, c: Vector2) -> Vec
 
 ## This function is similar to the previous one but does not clamp the result. 
 ## It calculates the closest point on the line segment defined by a and b to a third point c.
-## It uses the same vector operations as the previous closest_point_on_line_clamped function.
+## It uses the same vector operations as the previous closest_point_on_line_clamped_v2 function.
 func closest_point_on_line_v2(a: Vector2, b: Vector2, c: Vector2) -> Vector2:
 	b = (b - a).normalized()
 	c = c - a
