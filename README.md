@@ -97,15 +97,15 @@ A set of useful vector utilities that you are likely to use in your day-to-day w
 
 ### normalize_vector(value: Vector2) -> Vector2:
 Normalize the vector only if it's not normalized and also changes if it's diagonal vector and do the proper normalization. Returns the vector
-`GodotEssentialsHelpers.normalize_vector(Vector2(30, -40)) # returns Vector2(1, -1)`
+`GodotParadiseVectorWizard.normalize_vector(Vector2(30, -40)) # returns Vector2(1, -1)`
 
 ### normalize_diagonal_vector(direction: Vector2) -> Vector2:
 A diagonal vector requires additional treatment, which can be applied using this function.
-`GodotEssentialsHelpers.normalize_diagonal_vector(Vector2(-0.7444, 0.7444))`
+`GodotParadiseVectorWizard.normalize_diagonal_vector(Vector2(-0.7444, 0.7444))`
 
 ### is_diagonal_direction(direction: Vector2) -> bool:
 Performs a basic check and returns whether the direction passed as a parameter is diagonal. This function is used internally by the `normalize_diagonal_vector` function.
-`GodotEssentialsHelpers.is_diagonal_direction(Vector2(1, -1))`
+`GodotParadiseVectorWizard.is_diagonal_direction(Vector2(1, -1))`
 
 ### generate_random_direction() -> Vector2:
 Simple random Vector2 direction generator, use this function if you need a random direction in some behaviour of your game. The result is normalized
@@ -114,17 +114,17 @@ Simple random Vector2 direction generator, use this function if you need a rando
 Generate a random angle between a range provided, the unit is on degrees
 ```py
 # Between 90º and 120º
-GodotEssentialsHelpers.generate_random_angle(90, 120) # 117º
+GodotParadiseVectorWizard.generate_random_angle(90, 120) # 117º
 ```
 
 ### generate_random_directions_on_angle_range(origin: Vector2 = Vector2.UP, min_angle_range: float = 0.0, max_angle_range: float = 360.0, num_directions: int = 10) -> Array[Vector2]:
 This function generate a n random directions in a Array[Vector2] format from an starting vector point defining the min and max angles:
 ```py
 # 5 Random directions from Vector down (0, 1) between 90º and 180º
-GodotEssentialsHelpers.generate_random_directions_on_angle_range(Vector2.DOWN, 90, 180, 5)
+GodotParadiseVectorWizard.generate_random_directions_on_angle_range(Vector2.DOWN, 90, 180, 5)
 
 # 25 random directions from the actual player global position between 0 and 360º
-GodotEssentialsHelpers.generate_random_directions_on_angle_range(player.global_position, 0, 360, 25)
+GodotParadiseVectorWizard.generate_random_directions_on_angle_range(player.global_position, 0, 360, 25)
 ```
 
 ### translate_x_axis_to_vector(axis: float) -> Vector2:
@@ -459,7 +459,7 @@ func _on_music_value_changed(value):
 
 
 func _on_sfx_value_changed(value):
-	change_volume("SFX", value)
+	GodotParadiseAudioManager.change_volume("SFX", value)
 ```
 
 # ✌️You are welcome to
