@@ -1,16 +1,16 @@
 <p align="center">
-	<img width="256px" src="https://github.com/GodotParadise/[PLUGIN]/blob/main/icon.jpg" alt="GodotParadise[PLUGIN] logo" />
-	<h1 align="center">Godot Paradise [PLUGIN]</h1>
+	<img width="256px" src="https://github.com/GodotParadise/SingletonBundle/blob/main/icon.jpg" alt="GodotParadiseSingletonBundle logo" />
+	<h1 align="center">Godot Paradise SingletonBundle</h1>
 	
-[![LastCommit](https://img.shields.io/github/last-commit/GodotParadise/[PLUGIN]?cacheSeconds=600)](https://github.com/GodotParadise/[PLUGIN]/commits)
-[![Stars](https://img.shields.io/github/stars/godotparadise/[PLUGIN])](https://github.com/GodotParadise/[PLUGIN]/stargazers)
-[![Total downloads](https://img.shields.io/github/downloads/GodotParadise/[PLUGIN]/total.svg?label=Downloads&logo=github&cacheSeconds=600)](https://github.com/GodotParadise/[PLUGIN]/releases)
-[![License](https://img.shields.io/github/license/GodotParadise/[PLUGIN]?cacheSeconds=2592000)](https://github.com/GodotParadise/[PLUGIN]/blob/main/LICENSE.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/godotparadise/[PLUGIN]/pulls)
+[![LastCommit](https://img.shields.io/github/last-commit/GodotParadise/SingletonBundle?cacheSeconds=600)](https://github.com/GodotParadise/SingletonBundle/commits)
+[![Stars](https://img.shields.io/github/stars/godotparadise/SingletonBundle)](https://github.com/GodotParadise/SingletonBundle/stargazers)
+[![Total downloads](https://img.shields.io/github/downloads/GodotParadise/SingletonBundle/total.svg?label=Downloads&logo=github&cacheSeconds=600)](https://github.com/GodotParadise/SingletonBundle/releases)
+[![License](https://img.shields.io/github/license/GodotParadise/SingletonBundle?cacheSeconds=2592000)](https://github.com/GodotParadise/SingletonBundle/blob/main/LICENSE.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/godotparadise/SingletonBundle/pulls)
 [![](https://img.shields.io/discord/1167079890391138406.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/XqS7C34x)
 </p>
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/GodotParadise/[PLUGIN]/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/GodotParadise/SingletonBundle/blob/main/README.md)
 
 - - -
 
@@ -469,9 +469,9 @@ func _on_sfx_value_changed(value):
 	change_volume("SFX", value)
 
 # ✌️Eres bienvenido a
-- [Give feedback](https://github.com/GodotParadise/[PLUGIN]/pulls)
-- [Suggest improvements](https://github.com/GodotParadise/[PLUGIN]/issues/new?assignees=BananaHolograma&labels=enhancement&template=feature_request.md&title=)
-- [Bug report](https://github.com/GodotParadise/[PLUGIN]/issues/new?assignees=BananaHolograma&labels=bug%2C+task&template=bug_report.md&title=)
+- [Give feedback](https://github.com/GodotParadise/SingletonBundle/pulls)
+- [Suggest improvements](https://github.com/GodotParadise/SingletonBundle/issues/new?assignees=BananaHolograma&labels=enhancement&template=feature_request.md&title=)
+- [Bug report](https://github.com/GodotParadise/SingletonBundle/issues/new?assignees=BananaHolograma&labels=bug%2C+task&template=bug_report.md&title=)
 
 GodotParadise esta disponible de forma gratuita.
 
@@ -481,7 +481,7 @@ Si estas agradecido por lo que hacemos, por favor, considera hacer una donación
 # 🤝Normas de contribución
 **¡Gracias por tu interes en GodotParadise!**
 
-Para garantizar un proceso de contribución fluido y colaborativo, revise nuestras [directrices de contribución](https://github.com/godotparadise/[PLUGIN]/blob/main/CONTRIBUTING.md) antes de empezar. Estas directrices describen las normas y expectativas que mantenemos en este proyecto.
+Para garantizar un proceso de contribución fluido y colaborativo, revise nuestras [directrices de contribución](https://github.com/godotparadise/SingletonBundle/blob/main/CONTRIBUTING.md) antes de empezar. Estas directrices describen las normas y expectativas que mantenemos en este proyecto.
 
 **📓Código de conducta:** En este proyecto nos adherimos estrictamente al [Código de conducta de Godot](https://godotengine.org/code-of-conduct/). Como colaborador, es importante respetar y seguir este código para mantener una comunidad positiva e inclusiva.
 - - -
