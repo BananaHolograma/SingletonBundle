@@ -194,7 +194,7 @@ Para conseguir un efecto de cámara lenta puedes utilizar esta función que reci
 # Duration 0.5 sec
 GodotParadiseUtilities.frame_freeze(0.05, 0.5)
 ```
-Here you can see an example that trigger a frame freeze when a character jumps:
+Aqui puedes ver un ejemplo básico que inicia un frame freeze cuando el personaje salta:
 ```py
 func handle_jump():
 	if Input.is_action_just_pressed("jump"):
@@ -289,7 +289,7 @@ Define una variable en tiempo de ejecución, es una alternativa a `OS.set_enviro
 Elimina una variable en tiempo de ejecución `GodotEnvironment.remove_var("API_KEY")`
 
 ### create_environment_file(filename: String = ".env", overwrite: bool = false) -> void
-Create un archivo de variables de entorno con el nombre especificado. Si ya existe, puede ser sobreescrito de forma opcional
+Crea un archivo de variables de entorno con el nombre especificado. Si ya existe, puede ser sobreescrito de forma opcional
 ```py
 GodotEnvironment.create_environment_file(".env")
 GodotEnvironment.add_var_to_file("env", "PORT", 3000)
